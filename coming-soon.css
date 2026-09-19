@@ -1,0 +1,117 @@
+:root{
+  --cream: #FBF2EC;
+  --cream-deep: #F3E4DA;
+  --rose: #C97B8A;
+  --rose-deep: #9C5C6B;
+  --sage: #8A9770;
+  --sage-deep: #6E7A58;
+  --ink: #3A2E2C;
+  --ink-soft: #6B5D5A;
+  --white: #FFFDFB;
+}
+
+*{ box-sizing: border-box; }
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  padding: 24px;
+}
+
+.wrap{
+  max-width: 480px;
+}
+
+h1, h2{
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  margin: 0;
+  color: var(--ink);
+}
+
+.script{
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+}
+
+.logo-mark{
+  width: 160px;
+  margin: 0 auto 28px;
+}
+
+.logo-mark img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+}
+
+/* Placeholder shown until a real logo file is added — see logo.png */
+.logo-placeholder{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2px dashed var(--rose);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 18px;
+  font-family: 'Caveat', cursive;
+  font-size: 1rem;
+  color: var(--rose-deep);
+}
+
+.kicker{
+  font-family: 'Caveat', cursive;
+  font-size: 1.4rem;
+  color: var(--sage-deep);
+  display: block;
+  margin-bottom: 6px;
+}
+
+h1{
+  font-size: clamp(1.9rem, 5vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.tagline{
+  margin-top: 16px;
+  color: var(--ink-soft);
+  font-size: 1.02rem;
+}
+
+.insta-btn{
+  display: inline-block;
+  margin-top: 30px;
+  background: var(--rose);
+  color: var(--white);
+  padding: 13px 30px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.98rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.insta-btn:hover{ background: var(--rose-deep); transform: translateY(-1px); }
+
+.fine{
+  margin-top: 26px;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  opacity: 0.75;
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{ transition: none !important; }
+}

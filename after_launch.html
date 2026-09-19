@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zymoyra.co — handmade with love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Caveat:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="#top" class="brand">zymoyra.co</a>
+      <a class="nav-cta" href="https://instagram.com/zymoyra.co" target="_blank" rel="noopener">DM to order</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-mark">
+        <!--
+        LOGO PLACEHOLDER
+        Replace this whole div with:
+          <img src="logo.png" alt="zymoyra.co logo">
+        once you have the real logo file saved alongside index.html.
+      -->
+        <img src="logo.png" alt="zymoyra.co logo">
+        <!-- <div class="logo-placeholder">logo goes here<br>(logo.png)</div> -->
+      </div>
+      <div class="hero-text">
+        <span class="kicker">handmade with love, from India</span>
+        <h1>Small-batch crochet, beaded pieces &amp; hand-painted clothing</h1>
+        <p>Every piece on this page is made by hand, one at a time. Browse the catalog below, then send a DM on
+          Instagram to order — no checkout, no fuss, just a quick message.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="https://instagram.com/zymoyra.co" target="_blank" rel="noopener">Order on
+            Instagram</a>
+          <a class="btn-ghost" href="#gallery">Browse the catalog</a>
+        </div>
+        <!-- PLACEHOLDER: replace with real shipping/turnaround info once confirmed -->
+        <!-- <p class="hero-fineprint">Ships across India · usually 3–5 days for made-to-order pieces (edit me)</p> -->
+      </div>
+    </div>
+  </header>
+
+  <svg class="divider" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,30 C300,60 900,0 1200,30 L1200,60 L0,60 Z" fill="var(--white)" />
+  </svg>
+
+  <section class="categories">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">what we make</span>
+        <h2>Four ways to bring a little handmade warmth home</h2>
+      </div>
+      <div class="cat-list">
+        <a class="cat-item" href="#gallery">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M12 2c-1.5 2-3 3.2-3 5.5S10.5 12 12 12s3-2.2 3-4.5S13.5 4 12 2Z" />
+            <path d="M12 12v10" />
+            <path d="M8 22h8" />
+          </svg>
+          <h3>Custom gifts</h3>
+          <p>Personalised pieces made to order for birthdays, anniversaries and just-because moments.</p>
+        </a>
+        <a class="cat-item" href="#gallery">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 3v18M3 12h18" opacity="0.4" />
+            <path d="M7 7c1.5 1.5 1.5 3.5 0 5M17 7c-1.5 1.5-1.5 3.5 0 5" />
+          </svg>
+          <h3>Crochet</h3>
+          <p>Soft, textured crochet pieces — bags, plushies and wearables, stitched by hand.</p>
+        </a>
+        <a class="cat-item" href="#gallery">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="6" cy="6" r="2.2" />
+            <circle cx="12" cy="12" r="2.2" />
+            <circle cx="18" cy="6" r="2.2" />
+            <circle cx="12" cy="19" r="2.2" />
+            <path d="M7.5 7.5L10.5 10.5M13.5 10.5L16.5 7.5M12 14.2V16.8" />
+          </svg>
+          <h3>Beaded accessories</h3>
+          <p>Bracelets and jewellery, hand-strung bead by bead in small batches.</p>
+        </a>
+        <a class="cat-item" href="#gallery">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <path d="M4 15l4-4 4 4 4-6 4 4" />
+          </svg>
+          <h3>Hand-painted clothing</h3>
+          <p>One-off, hand-painted garments — no two pieces ever come out exactly alike.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">the catalog</span>
+        <h2>Latest pieces</h2>
+        <p class="gallery-tip">Tip: mention the product name when you DM, so we know exactly what you're after.</p>
+      </div>
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="wrap about-inner">
+      <span class="kicker">the maker</span>
+      <h2>A small studio, made by hand</h2>
+      <p>Zymoyra.co started as a way to turn a love of crochet, beadwork and painting into something to share. Every
+        order is made individually — thank you for supporting a small, handmade business.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span class="brand script">zymoyra.co</span>
+      <a class="insta" href="https://instagram.com/zymoyra.co" target="_blank" rel="noopener">@zymoyra.co on Instagram —
+        DM to order</a>
+      <p class="fine">Handmade with love · India</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
