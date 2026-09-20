@@ -1,8 +1,44 @@
 [
-  { "name": "Blush Beaded Bracelet", "price": "₹299", "category": "Beaded accessories", "image": "", "color": "#C97B8A" },
-  { "name": "Sage Crochet Tote", "price": "₹899", "category": "Crochet", "image": "", "color": "#8A9770" },
-  { "name": "Hand-painted Denim Jacket", "price": "₹1,599", "category": "Hand-painted clothing", "image": "", "color": "#9C5C6B" },
-  { "name": "Custom Name Charm Bracelet", "price": "₹349", "category": "Custom gifts", "image": "", "color": "#C97B8A" },
-  { "name": "Cloud Crochet Plushie", "price": "₹499", "category": "Crochet", "image": "", "color": "#8A9770" },
-  { "name": "Floral Hand-painted Tee", "price": "₹799", "category": "Hand-painted clothing", "image": "", "color": "#9C5C6B" }
+  {
+    "name": "Blush Beaded Bracelet",
+    "price": "₹299",
+    "category": "Beaded accessories",
+    "image": "",
+    "color": "#C97B8A"
+  },
+  {
+    "name": "Sage Crochet Tote",
+    "price": "₹899",
+    "category": "Crochet",
+    "image": "",
+    "color": "#8A9770"
+  },
+  {
+    "name": "Hand-painted Denim Jacket",
+    "price": "₹1,599",
+    "category": "Hand-painted clothing",
+    "image": "",
+    "color": "#9C5C6B"
+  },
+  {
+    "name": "Custom Name Charm Bracelet",
+    "price": "₹349",
+    "category": "Custom gifts",
+    "image": "",
+    "color": "#C97B8A"
+  },
+  {
+    "name": "Cloud Crochet Plushie",
+    "price": "₹499",
+    "category": "Crochet",
+    "image": "",
+    "color": "#8A9770"
+  },
+  {
+    "name": "Floral Hand-painted Tee",
+    "price": "₹799",
+    "category": "Hand-painted clothing",
+    "image": "",
+    "color": "#9C5C6B"
+  }
 ]

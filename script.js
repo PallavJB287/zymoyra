@@ -1,24 +1,6 @@
-// ---------------------------------------------------------------
-// Product data now lives in products.json — open that file to add,
-// remove, or edit products. Each entry needs:
-//   name, price, category, image (URL/filename, or "" for a placeholder),
-//   and color (used only for the placeholder swatch background).
-// Categories used so far: "Custom gifts", "Crochet",
-// "Beaded accessories", "Hand-painted clothing"
-// — kept on each product so a category filter can be added later
-// without restructuring anything.
-//
-// NOTE: fetching a local JSON file only works when the page is
-// served over http(s) — e.g. on GitHub Pages, or locally via:
-//   python3 -m http.server
-// then visiting http://localhost:8000. Opening index.html directly
-// by double-clicking it (file:// URL) will block this fetch in most
-// browsers — that's a browser security rule, not a bug in this code.
-// ---------------------------------------------------------------
-
 const insta = "https://instagram.com/zymoyra.co";
 
-function renderProducts(list){
+function renderProducts(list) {
   const grid = document.getElementById("gallery-grid");
   grid.innerHTML = "";
   list.forEach(p => {

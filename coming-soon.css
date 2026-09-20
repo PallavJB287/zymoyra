@@ -1,4 +1,4 @@
-:root{
+:root {
   --cream: #FBF2EC;
   --cream-deep: #F3E4DA;
   --rose: #C97B8A;
@@ -10,9 +10,11 @@
   --white: #FFFDFB;
 }
 
-*{ box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-body{
+body {
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -27,36 +29,36 @@ body{
   padding: 24px;
 }
 
-.wrap{
+.wrap {
   max-width: 480px;
 }
 
-h1, h2{
+h1,
+h2 {
   font-family: 'Fraunces', serif;
   font-weight: 500;
   margin: 0;
   color: var(--ink);
 }
 
-.script{
+.script {
   font-family: 'Caveat', cursive;
   font-weight: 700;
 }
 
-.logo-mark{
+.logo-mark {
   width: 160px;
   margin: 0 auto 28px;
 }
 
-.logo-mark img{
+.logo-mark img {
   width: 100%;
   height: auto;
   border-radius: 50%;
   display: block;
 }
 
-/* Placeholder shown until a real logo file is added — see logo.png */
-.logo-placeholder{
+.logo-placeholder {
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
@@ -72,7 +74,7 @@ h1, h2{
   color: var(--rose-deep);
 }
 
-.kicker{
+.kicker {
   font-family: 'Caveat', cursive;
   font-size: 1.4rem;
   color: var(--sage-deep);
@@ -80,18 +82,18 @@ h1, h2{
   margin-bottom: 6px;
 }
 
-h1{
+h1 {
   font-size: clamp(1.9rem, 5vw, 2.5rem);
   line-height: 1.2;
 }
 
-.tagline{
+.tagline {
   margin-top: 16px;
   color: var(--ink-soft);
   font-size: 1.02rem;
 }
 
-.insta-btn{
+.insta-btn {
   display: inline-block;
   margin-top: 30px;
   background: var(--rose);
@@ -103,15 +105,27 @@ h1{
   font-size: 0.98rem;
   transition: background 0.2s ease, transform 0.2s ease;
 }
-.insta-btn:hover{ background: var(--rose-deep); transform: translateY(-1px); }
 
-.fine{
+.insta-btn:hover {
+  background: var(--rose-deep);
+  transform: translateY(-1px);
+}
+
+.fine {
   margin-top: 26px;
   font-size: 0.82rem;
   color: var(--ink-soft);
   opacity: 0.75;
 }
 
-@media (prefers-reduced-motion: reduce){
-  *{ transition: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+.order-note {
+  margin-top: 14px;
+  font-size: 0.92rem;
+  color: var(--sage-deep);
 }
