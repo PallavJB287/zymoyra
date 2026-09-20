@@ -9,21 +9,20 @@ Handmade small business site for zymoyra.co — custom gifts, crochet, beaded ac
 
 ## File map
 
-| File | Purpose | After launch |
-|---|---|---|
-| `index.html` | Live coming-soon page | Archived |
-| `coming-soon.css` | Styles for the coming-soon page | Archived |
-| `after_launch.html` | Full catalog page (built, not live) | Renamed to `index.html` |
-| `styles.css` | Styles for the catalog page | Becomes the main CSS |
-| `script.js` | Loads and renders products from `products.json` | Stays |
-| `products.json` | Product data — sample/placeholder for now | Update with real products before launch |
-| `logo.png` | Site logo (Instagram profile picture) | Stays |
+| File                | Purpose                                         | After launch                            |
+| ------------------- | ----------------------------------------------- | --------------------------------------- |
+| `index.html`        | Live coming-soon page                           | Archived                                |
+| `coming-soon.css`   | Styles for the coming-soon page                 | Archived                                |
+| `after_launch.html` | Full catalog page (built, not live)             | Renamed to `index.html`                 |
+| `styles.css`        | Styles for the catalog page                     | Becomes the main CSS                    |
+| `script.js`         | Loads and renders products from `products.json` | Stays                                   |
+| `products.json`     | Product data — sample/placeholder for now       | Update with real products before launch |
+| `logo.png`          | Site logo (Instagram profile picture)           | Stays                                   |
 
 ## To-do before launch
 
-- [ ] Get real product photos from friend
+- [ ] Get real product photos
 - [ ] Replace placeholder names/prices in `products.json`
-- [ ] Confirm real shipping/turnaround wording (currently a placeholder line in `after_launch.html`)
 - [ ] Decide on a launch date
 - [ ] On launch day: archive `index.html` + `coming-soon.css`, rename `after_launch.html` → `index.html`
 
